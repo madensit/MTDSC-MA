@@ -69,4 +69,3 @@ print("Accuracy Testing Set: ", score[1])
 f.write(dataset_name + " Using " + model_architecture + ", Accuracy Testing Set:" + str(score[1]) + "\n\n")
 
 f.close()
-
