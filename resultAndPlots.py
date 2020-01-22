@@ -39,10 +39,10 @@ plt.show()
 
 
 trainAccSimple = [100, 90]
-trainAccCnn = [99.5, 97]
+trainAccCnn = [99.5, 96.5]
 
 x = np.arange(len(labels))
-width = 0.35
+width = 0.3
 
 fig, ax = plt.subplots()
 rects1 = ax.bar(x - width / 2, trainAccSimple, width, label='Simple')
