@@ -56,8 +56,17 @@ model.fit(x_train, y_train, batch_size=num_batch_size, epochs=num_epochs, valida
 duration = datetime.now() - start
 print("Total Training time: ", duration)
 
+f = open("Results/results.txt", "a")
+
 score = model.evaluate(x_train, y_train, verbose=0)
 print("Accuracy Training Set: ", score[1])
 
+f.write(dataset_name + "Accuracy Training Set:" + score[1])
+
 score = model.evaluate(x_test, y_test, verbose=0)
 print("Accuracy Testing Set: ", score[1])
+
+f.write(dataset_name + "Accuracy Testing Set:" + score[1])
+
+f.close()
+
