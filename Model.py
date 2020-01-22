@@ -61,12 +61,12 @@ f = open("Results/results.txt", "a")
 score = model.evaluate(x_train, y_train, verbose=0)
 print("Accuracy Training Set: ", score[1])
 
-f.write(dataset_name + "Accuracy Training Set:" + score[1])
+f.write(dataset_name + " Using " + model_architecture + ", Accuracy Training Set:" + str(score[1]) + "\n")
 
 score = model.evaluate(x_test, y_test, verbose=0)
 print("Accuracy Testing Set: ", score[1])
 
-f.write(dataset_name + "Accuracy Testing Set:" + score[1])
+f.write(dataset_name + " Using " + model_architecture + ", Accuracy Testing Set:" + str(score[1]) + "\n\n")
 
 f.close()
 

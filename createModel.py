@@ -13,9 +13,6 @@ def create_model(num_labels):
     model.add(Activation('relu'))
     model.add(Dropout(0.5))
 
-    model.add(Dense(256))
-    model.add(Activation('relu'))
-
     model.add(Dense(num_labels))
     model.add(Activation('softmax'))
     return model
