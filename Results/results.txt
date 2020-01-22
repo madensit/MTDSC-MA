@@ -10,3 +10,9 @@ cats_dogs Using simple, Accuracy Testing Set:0.9107142686843872
 cats_dogs Using cnn, Accuracy Training Set:0.96875
 cats_dogs Using cnn, Accuracy Testing Set:0.8500000238418579
 
+cats_dogs Using simple, Accuracy Training Set:0.918552041053772
+cats_dogs Using simple, Accuracy Testing Set:0.9821428656578064
+
+cats_dogs Using simple, Accuracy Training Set:0.9366515874862671
+cats_dogs Using simple, Accuracy Testing Set:0.9642857313156128
+
