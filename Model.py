@@ -12,7 +12,7 @@ if dataset_name not in ["cats_dogs", "EmergencySound", "Mixed"]:
     print("Please enter a valid dataset name.")
     exit()
 
-model_type = int(input("Select your model architecture (1 => Simple Architecture, 2 => CNN): \n"))
+model_type = int(input("Select your model architecture (1 => DNN, 2 => CNN): \n"))
 
 if model_type not in [1, 2]:
     print("Please enter a valid model architecture number.")
