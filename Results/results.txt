@@ -12,7 +12,12 @@ cats_dogs Using cnn, Accuracy Testing Set:0.8500000238418579
 
 cats_dogs Using simple, Accuracy Training Set:0.918552041053772
 cats_dogs Using simple, Accuracy Testing Set:0.9821428656578064
+cats_dogs Using cnn, Accuracy Training Set:0.9624999761581421
+cats_dogs Using cnn, Accuracy Testing Set:0.8500000238418579
 
-cats_dogs Using simple, Accuracy Training Set:0.9366515874862671
-cats_dogs Using simple, Accuracy Testing Set:0.9642857313156128
+cats_dogs Using cnn, Accuracy Training Set:0.8999999761581421
+cats_dogs Using cnn, Accuracy Testing Set:0.800000011920929
+
+EmergencySound Using simple, Accuracy Training Set:1.0
+EmergencySound Using simple, Accuracy Testing Set:0.9583333134651184
 
