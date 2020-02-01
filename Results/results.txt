@@ -12,6 +12,7 @@ cats_dogs Using cnn, Accuracy Testing Set:0.8500000238418579
 
 cats_dogs Using simple, Accuracy Training Set:0.918552041053772
 cats_dogs Using simple, Accuracy Testing Set:0.9821428656578064
+
 cats_dogs Using cnn, Accuracy Training Set:0.9624999761581421
 cats_dogs Using cnn, Accuracy Testing Set:0.8500000238418579
 
@@ -21,9 +22,7 @@ cats_dogs Using cnn, Accuracy Testing Set:0.800000011920929
 EmergencySound Using simple, Accuracy Training Set:1.0
 EmergencySound Using simple, Accuracy Testing Set:0.9583333134651184
 
-
 ## Remove dropouts
-
 
 EmergencySound Using simple, Accuracy Training Set:1.0
 EmergencySound Using simple, Accuracy Testing Set:0.9583333134651184
@@ -31,6 +30,11 @@ EmergencySound Using simple, Accuracy Testing Set:0.9583333134651184
 EmergencySound Using cnn, Accuracy Training Set:1.0
 EmergencySound Using cnn, Accuracy Testing Set:0.9833333492279053
 
+cats_dogs Using cnn, Accuracy Training Set:1.0
+cats_dogs Using cnn, Accuracy Testing Set:0.8999999761581421
+
+cats_dogs Using simple, Accuracy Training Set:1.0
+cats_dogs Using simple, Accuracy Testing Set:0.9642857313156128
 
 ## Dropouts = 0.5 for CNN and 0.7 for DNN
 
@@ -40,5 +44,9 @@ EmergencySound Using simple, Accuracy Testing Set:0.9583333134651184
 EmergencySound Using cnn, Accuracy Training Set:0.9604166746139526
 EmergencySound Using cnn, Accuracy Testing Set:0.9583333134651184
 
+cats_dogs Using simple, Accuracy Training Set:0.8959276080131531
+cats_dogs Using simple, Accuracy Testing Set:0.9107142686843872
 
+cats_dogs Using cnn, Accuracy Training Set:0.7749999761581421
+cats_dogs Using cnn, Accuracy Testing Set:0.75
 

@@ -7,11 +7,11 @@ def create_model(num_labels):
 
     model.add(Dense(256, input_shape=(40,)))
     model.add(Activation('relu'))
-    model.add(Dropout(0.5))
+    model.add(Dropout(0.7))
 
     model.add(Dense(256))
     model.add(Activation('relu'))
-    model.add(Dropout(0.5))
+    model.add(Dropout(0.7))
 
     model.add(Dense(num_labels))
     model.add(Activation('softmax'))
@@ -22,19 +22,19 @@ def create_model_cnn(num_labels, num_rows, num_columns, num_channels):
     model = Sequential()
     model.add(Conv2D(filters=16, kernel_size=2, input_shape=(num_rows, num_columns, num_channels), activation='relu'))
     model.add(MaxPooling2D(pool_size=2))
-    model.add(Dropout(0.2))
+    model.add(Dropout(0.5))
 
     model.add(Conv2D(filters=32, kernel_size=2, activation='relu'))
     model.add(MaxPooling2D(pool_size=2))
-    model.add(Dropout(0.2))
+    model.add(Dropout(0.5))
 
     model.add(Conv2D(filters=64, kernel_size=2, activation='relu'))
     model.add(MaxPooling2D(pool_size=2))
-    model.add(Dropout(0.2))
+    model.add(Dropout(0.5))
 
     model.add(Conv2D(filters=128, kernel_size=2, activation='relu'))
     model.add(MaxPooling2D(pool_size=2))
-    model.add(Dropout(0.2))
+    model.add(Dropout(0.5))
     model.add(GlobalAveragePooling2D())
 
     model.add(Dense(num_labels, activation='softmax'))
